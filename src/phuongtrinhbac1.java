@@ -9,7 +9,12 @@ public class phuongtrinhbac1 {
         System.out.println("B= ");
         b = sc.nextDouble();
         x = b/a;
-        System.out.println("X= " +x);
+        if(a==0){
+            System.out.println("Phuong trinh vo nghiem");
+        }else{
+            System.out.println("Phuong trin co nghiem la: X = " +x);
+        }
+        
         sc.close();
     }
 }

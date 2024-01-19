@@ -11,5 +11,6 @@ public class bai2 {
         }else {
             System.out.println("So vua nhap la so le");
         }
+        sc.close();
     }
 }
