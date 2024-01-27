@@ -43,6 +43,8 @@ public class bai4 {
             case 12:
                 System.out.println("Thang 12");
                 break;
+            default:
+            System.out.println("Khong phai thang trong nam"); break;
         }
         sc.close();
     }
