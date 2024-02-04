@@ -6,8 +6,11 @@ public class Bai10 {
         char n;
         int dem = 0;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap vao mot chuoi bat ky khong qua 80 ky tu: ");
-        str = sc.nextLine();
+        do {
+            System.out.println("Nhap vao mot chuoi bat ky khong qua 80 ky tu: ");
+            str = sc.nextLine();
+        } while (str.length() > 80);
+        
         System.out.println("Nhap vao mot ky tu bat ky: ");
         n = sc.next().charAt(0);
         for(int i = 0; i< str.length(); i++){
@@ -16,5 +19,6 @@ public class Bai10 {
             }
         }
         System.out.println("so lan ky tu vua nhap xuat hien trong chuoi la: "+ dem);
+        sc.close();
     }
 }

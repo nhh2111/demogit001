@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class page81c2 {
+public class bai12 {
     public static void main(String[] args) {
         int a,b;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap so dong cho mang: ");
-        a = sc.nextInt();
         System.out.print("Nhap so cot cho mang: ");
         b = sc.nextInt();
+        System.out.print("Nhap so dong cho mang: ");
+        a = sc.nextInt();
         int arr[][] = new int [a][b];
         for(int i = 0; i < a; i++){
             for(int j = 0; j< b; j++){
