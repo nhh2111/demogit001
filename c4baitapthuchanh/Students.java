@@ -26,11 +26,10 @@ public class Students {
             System.out.println("Loi nhap du lieu");
             System.exit(0);
         }
-        else{
-            System.out.print("Nhap tuoi hoc sinh: ");
-            this.age = scanner.nextInt();
-            scanner.nextLine();
-        }
+        System.out.print("Nhap tuoi hoc sinh: ");
+        this.age = scanner.nextInt();
+        scanner.nextLine();
+        
     }
     public void inputPoint(Scanner scanner) {
         System.out.print("Nhap diem cua hoc sinh: ");
