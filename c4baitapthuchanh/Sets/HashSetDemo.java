@@ -62,12 +62,10 @@ public class HashSetDemo {
         
         for (Students student : studentsSet) {
             if (student.getFullname().equals(fullnameToUpdate)) {
-                System.out.print("Nhap ten moi: ");
-                String newFullname = scanner.nextLine();
                 System.out.print("Nhap tuoi moi: ");
                 int newAge = scanner.nextInt();
                 scanner.nextLine();
-                student.modifyInfo(newFullname, newAge);
+                student.modifyInfo(newAge);
                 System.out.println("Cap nhat thong tin thanh cong.");
                 return;
             }

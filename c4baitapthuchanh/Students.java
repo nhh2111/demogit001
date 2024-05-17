@@ -55,10 +55,7 @@ public class Students {
     public int getPoint(){
         return point;
     }
-    public void modifyInfo(String fullname, int age) {
-        if (!fullname.isEmpty()) {
-            this.fullname = fullname;
-        }
+    public void modifyInfo( int age) {
         if (age >= 0) {
             this.age = age;
         }
