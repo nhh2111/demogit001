@@ -45,6 +45,6 @@ public class bai1 {
             for (int so: arr) {
                  System.out.print(so + "\t");
             }
-
+            sc.close();
     }
 }
