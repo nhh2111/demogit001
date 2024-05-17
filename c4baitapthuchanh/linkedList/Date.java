@@ -31,6 +31,7 @@ public class Date {
         String firstNode = list.getFirst();
         String lastNode = list.getLast();
         System.out.println("Phan tu dau tien trong danh sach la: "+firstNode+" ; Phan tu cuoi cung trong danh sach la: " +lastNode);
+        sc.close();
 
     }
     
